@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: "Space Grotesk", sans-serif;
+    text-align: center;
+  background-color: #283149;
+}
+
+
+h1 {
+  margin-top: 3rem;
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Space Grotesk", sans-serif;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+.w {
+  background-image: url("images/tom1.png");
+}
+
+.a {
+  background-image: url("images/tom2.png");
+}
+
+.s {
+  background-image: url("images/tom3.png");
+}
+
+.d {
+  background-image: url("images/tom4.png");
+}
+
+.j {
+  background-image: url("images/snare.png");
+}
+
+.k {
+  background-image: url("images/crash.png");
+}
+
+.l {
+  background-image: url("images/kick.png");
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.drum {
+  width: 150px;
+  height: 150px;
+  outline: none;
+  border: 10px solid #8f98b2;
+  font-size: 5rem;
+  font-family: "Space Grotesk", sans-serif;
+  line-height: 2;
+  font-weight: 900;
+  color: #e7e1e19a;
+  border-radius: 15px;
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
